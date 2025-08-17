@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import bcryptjs from "bcryptjs";
-import dotenv from "dotenv";
 
-dotenv.config();
+
+
 
 const UserSchema = new mongoose.Schema(
     {
