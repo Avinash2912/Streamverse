@@ -1,5 +1,5 @@
 import multer from 'multer'
-import {} from 'nanoid'
+import {nanoid} from 'nanoid'
 const storage = multer.diskStorage({
     destination: (req, file, callbackfn) => {
         callbackfn(null, './public/temp')
